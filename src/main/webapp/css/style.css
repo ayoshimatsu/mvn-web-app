@@ -40,16 +40,17 @@ header .container {
     padding-top: 0;
     padding-bottom: 0;
     padding-left: 76px;
+    background-image: url(../resources/eyeGhost.jpeg);
     background-repeat: no-repeat;
-    background-size: 53px;
-    background-position: 16px 10px;
+    background-size: 80px;
+    background-position: top 50% left 30px;
 }
 @media (min-width: 768px) {
     header .container {
         min-height: 100px;
         padding-left: 120px;
         background-size: 80px;
-        background-position: 30px 20px;
+        background-position: top 50% left 30px;
     }
 }
 header .container h1,
@@ -88,4 +89,35 @@ main {
 main .container {
     margin: 0 auto;
     background-color: #fff;
+}
+
+footer {
+    background-color: #800080;
+}
+footer img {
+    max-width: 50px;
+}
+footer .container {
+    min-height: 50px;
+    padding-top:10px;
+    padding-bottom:10px;
+    color: #fff;
+    font-size: 16px;
+    text-align: right;
+    /*
+    background-image: url(../../resources/cycling.jpg);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: top 50% left 10px;
+    */
+}
+@media (min-width: 768px) {
+    footer .container {
+        min-height: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+footer .container p {
+    margin: 0;
 }
