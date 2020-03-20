@@ -1,4 +1,4 @@
-package com.ayoshimatsu;
+package com.sample_simpleServlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;

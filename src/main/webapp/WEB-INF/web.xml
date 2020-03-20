@@ -2,16 +2,54 @@
  "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
-
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
 
+  <!-- sample_simpleServlet -->
   <servlet>
     <servlet-name>sample</servlet-name>
-    <servlet-class>com.ayoshimatsu.SampleServlet</servlet-class>
+    <servlet-class>com.sample_simpleServlet.SampleServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>sample</servlet-name>
     <url-pattern>/sample</url-pattern>
   </servlet-mapping>
+
+  <servlet>
+    <servlet-name>sampleFormat</servlet-name>
+    <servlet-class>com.sample_simpleServlet.FormSampleServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>sampleFormat</servlet-name>
+    <url-pattern>/sampleFormat</url-pattern>
+  </servlet-mapping>
+
+  <!-- sample_forwardServlet-->
+  <servlet>
+    <servlet-name>forwardSample</servlet-name>
+    <servlet-class>com.sample_forwardServlet.ForwardSampleServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>forwardSample</servlet-name>
+    <url-pattern>/forwardSample</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>redirectSample</servlet-name>
+    <servlet-class>com.sample_forwardServlet.RedirectSampleServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>redirectSample</servlet-name>
+    <url-pattern>/redirectSample</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>healthCheckSample</servlet-name>
+    <servlet-class>com.sample_servlet.HealthCheck</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>healthCheckSample</servlet-name>
+    <url-pattern>/healthCheckSample</url-pattern>
+  </servlet-mapping>
+
 </web-app>

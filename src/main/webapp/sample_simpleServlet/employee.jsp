@@ -1,4 +1,4 @@
-<%@ page contentType="text/html; charset=UTF-8" import="com.ayoshimatsu.Employee" %>
+<%@ page contentType="text/html; charset=UTF-8" import="com.sample_servletBook.Employee" %>
 <% Employee emp = new Employee("0001", "山本"); %>
 
 <!DOCTYPE html>

@@ -1,4 +1,4 @@
-package com.ayoshimatsu;
+package com.sample_simpleServlet;
 
 public class Employee {
     private String oId;
