@@ -1,7 +1,7 @@
-package com.sample_servlet;
+package com.sample_requestScopeServlet;
 
-import com.sample_model.Health;
-import com.sample_model.HealthCheckLogic;
+import com.sample_requestScopeModel.Health;
+import com.sample_requestScopeModel.HealthCheckLogic;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;

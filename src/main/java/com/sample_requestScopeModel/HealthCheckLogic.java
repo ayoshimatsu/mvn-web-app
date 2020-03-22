@@ -1,4 +1,4 @@
-package com.sample_model;
+package com.sample_requestScopeModel;
 
 public class HealthCheckLogic {
     public void execute(Health aHealth) {

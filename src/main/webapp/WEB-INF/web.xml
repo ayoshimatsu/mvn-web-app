@@ -43,13 +43,34 @@
     <url-pattern>/redirectSample</url-pattern>
   </servlet-mapping>
 
+  <!-- sample_requestScope -->
   <servlet>
     <servlet-name>healthCheckSample</servlet-name>
-    <servlet-class>com.sample_servlet.HealthCheck</servlet-class>
+    <servlet-class>com.sample_requestScopeServlet.HealthCheck</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>healthCheckSample</servlet-name>
     <url-pattern>/healthCheckSample</url-pattern>
+  </servlet-mapping>
+
+  <!-- sample_sessionScope -->
+  <servlet>
+    <servlet-name>registerUserSample</servlet-name>
+    <servlet-class>com.sample_sessionScopeServlet.RegisterUser</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>registerUserSample</servlet-name>
+    <url-pattern>/registerUserSample</url-pattern>
+  </servlet-mapping>
+
+  <!-- sample_application -->
+  <servlet>
+    <servlet-name>applicationSample</servlet-name>
+    <servlet-class>com.sample_applicationScopeServlet.MinatoIndex</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>applicationSample</servlet-name>
+    <url-pattern>/applicationSample</url-pattern>
   </servlet-mapping>
 
 </web-app>

@@ -1,4 +1,4 @@
-package com.sample_model;
+package com.sample_requestScopeModel;
 
 import java.io.Serializable;
 
